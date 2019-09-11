@@ -1,0 +1,275 @@
+{
+  "nivel": "becario",
+  "preguntas": [
+    {
+      "pregunta": "La Encapsulación:",
+      "respuestas": [
+        {
+          "idPreg":"X1",
+          "idOpcion":"A0",
+          "opcion":"a",
+          "texto": "Agrupa el código y los datos que maneja y los mantiene protegidos frente a cualquier interferencia y mal uso.",
+          "seleccionado": false
+        },
+        {
+          "idPreg":"Y1",
+          "idOpcion":"B0",
+          "opcion":"b",
+          "texto": "Agrupa el código y los datos que maneja y los mantiene protegidos para que nadie pueda hacer uso de ellos.",
+        "seleccionado": false
+        },
+        {
+          "idPreg":"Z1",
+          "idOpcion":"C0",
+          "opcion":"c",
+          "texto": "Agrupa el código y los datos que no deben ser accedidos por más de un proceso.",
+        "seleccionado": false
+        }
+      ],
+      "correcta": 0
+    },
+    {
+      "pregunta": "El Polimorfismo se define como:",
+      "respuestas": [
+        {
+          "idPreg":"X2",
+          "idOpcion":"A1",
+          "opcion":"a",
+          "texto": "Cualidad que permite que un nombre se utilice para dos o más propósitos relacionados pero técnicamente diferentes.",
+          "seleccionado": false
+        },
+        {
+          "idPreg":"Y2",
+          "idOpcion":"B1",
+          "opcion":"b",
+          "texto": "Cualidad que permite crear objetos indiscriminadamente.",
+          "seleccionado": false
+        },
+        {
+          "idPreg":"Z2",
+          "idOpcion":"C1",
+          "opcion":"c",
+          "texto": "Cualidad que tiene un objeto para cambiar de forma de manera recurrente.",
+          "seleccionado": false
+        }
+      ],
+      "correcta": 0
+    },
+    {
+      "pregunta": "La Herencia se define como:",
+      "respuestas": [
+        {
+          "idPreg":"X3",
+          "idOpcion":"A2",
+          "opcion":"a",
+          "texto": "Proceso mediante el cual un objeto es instancia de otro objeto.",
+          "seleccionado": false
+        },
+        {
+          "idPreg":"Y3",
+          "idOpcion":"B2",
+          "opcion":"b",
+          "texto": "Proceso mediante el cual un objeto pertenece a la misma clase que otro objeto, pero ambos objetos no pueden adquirir las mismas propiedades.",
+          "seleccionado": false
+        },
+        {
+          "idPreg":"Z3",
+          "idOpcion":"C2",
+          "opcion":"c",
+          "texto": "Proceso mediante el cual un objeto puede adquirir las propiedades de otro objeto.",
+          "seleccionado": false
+        }
+      ],
+      "correcta": 2
+    },
+    {
+      "pregunta": "Son ejemplos de estructuras de datos:",
+      "respuestas": [
+        {
+          "idPreg":"X4",
+          "idOpcion":"A3",
+          "opcion":"a",
+          "texto": "String, char, int",
+          "seleccionado": false
+        },
+        {
+          "idPreg":"Y4",
+          "idOpcion":"B3",
+          "opcion":"b",
+          "texto": "Arreglos, listas, colas, árboles",
+          "seleccionado": false
+        },
+        {
+          "idPreg":"Z4",
+          "idOpcion":"C3",
+          "opcion":"c",
+          "texto": "=, >, <, true, false",
+          "seleccionado": false
+        }
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "Características de una pila:",
+      "respuestas": [
+        {
+          "idPreg":"X5",
+          "idOpcion":"A4",
+          "opcion":"a",
+          "texto": "El primero que llega es el último que sale",
+          "seleccionado": false
+        },
+        {
+          "idPreg":"Y5",
+          "idOpcion":"B4",
+          "opcion":"b",
+          "texto": "El último que llega, es el primero que sale",
+          "seleccionado": false
+        },
+        {
+          "idPreg":"Z5",
+          "idOpcion":"C4",
+          "opcion":"c",
+          "texto": "Todas las anteriores",
+          "seleccionado": false
+        }
+      ],
+      "correcta": 2
+    },
+    {
+      "pregunta": "Características de una Cola:",
+      "respuestas": [
+        {
+          "idPreg":"X6",
+          "idOpcion":"A5",
+          "opcion":"a",
+          "texto": "El primero que llega, es el primero que sale",
+          "seleccionado": false
+        },
+        {
+          "idPreg":"Y6",
+          "idOpcion":"B5",
+          "opcion":"b",
+          "texto": "El último que llega es el primero que sale",
+          "seleccionado": false
+        },
+        {
+          "idPreg":"Z6",
+          "idOpcion":"C5",
+          "opcion":"c",
+          "texto": "Todas las anteriores",
+          "seleccionado": false
+        }
+      ],
+      "correcta": 0
+    },
+    {
+      "pregunta": "La recursión es:",
+      "respuestas": [
+        {
+          "idPreg":"X7",
+          "idOpcion":"A6",
+          "opcion":"a",
+          "texto": "La capacidad de un método o función de invocarse a sí mismo para resolver un problema.",
+          "seleccionado": false
+        },
+        {
+          "idPreg":"Y7",
+          "idOpcion":"B6",
+          "opcion":"b",
+          "texto": "La capacidad de un objeto para instanciarse más de una vez.",
+          "seleccionado": false
+        },
+        {
+          "idPreg":"Z7",
+          "idOpcion":"C6",
+          "opcion":"c",
+          "texto": "La capacidad de una clase de invocarse a sí misma para resolver un problema.",
+          "seleccionado": false
+        }
+      ],
+      "correcta": 0
+    },
+    {
+      "pregunta": "La recursión se forma de dos elementos:",
+      "respuestas": [
+        {
+          "idPreg":"X8",
+          "idOpcion":"A7",
+          "opcion":"a",
+          "texto": "Caso base y Llamada recursiva.",
+          "seleccionado": false
+        },
+        {
+          "idPreg":"Y8",
+          "idOpcion":"B7",
+          "opcion":"b",
+          "texto": "Variables de condición y estructuras de datos.",
+          "seleccionado": false
+        },
+        {
+          "idPreg":"Z8",
+          "idOpcion":"C7",
+          "opcion":"c",
+          "texto": "Parte privada y  parte pública.",
+          "seleccionado": false
+        }
+      ],
+      "correcta": 0
+    },
+    {
+      "pregunta": "Son tipos de datos primitivos de Java:",
+      "respuestas": [
+        {
+          "idPreg":"X9",
+          "idOpcion":"A8",
+          "opcion":"a",
+          "texto": "byte, int, double",
+          "seleccionado": false
+        },
+        {
+          "idPreg":"Y9",
+          "idOpcion":"B8",
+          "opcion":"b",
+          "texto": "Integer, Double, String",
+          "seleccionado": false
+        },
+        {
+          "idPreg":"Z9",
+          "idOpcion":"C8",
+          "opcion":"c",
+          "texto": "Math, List, Map",
+          "seleccionado": false
+        }
+      ],
+      "correcta": 0
+    },
+    {
+      "pregunta": "Crea un objeto:",
+      "respuestas": [
+        {
+          "idPreg":"X10",
+          "idOpcion":"A9",
+          "opcion":"a",
+          "texto": "Int num1,num2;",
+          "seleccionado": false
+        },
+        {
+          "idPreg":"Y10",
+          "idOpcion":"B9",
+          "opcion":"b",
+          "texto": "Persona persona1 = new Persona();",
+          "seleccionado": false
+        },
+        {
+          "idPreg":"Z10",
+          "idOpcion":"C9",
+          "opcion":"c",
+          "texto": "Double nombre;",
+          "seleccionado": false
+        }
+      ],
+      "correcta": 1
+    }
+  ]
+}

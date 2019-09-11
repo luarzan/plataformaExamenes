@@ -1,0 +1,41 @@
+<section class="exam">
+        <nav class="menu-profiles">
+                <div class="title-menu-profile">
+                    <p class="text-menu-profile">Cuestionario</p>
+                </div>
+        </nav>
+    <div class="exam-general-container">
+        <div class="exam-container">
+            <div class="exam-content-wrapper">
+                <div class="exam-top-wrapper">
+                    <div class="top-title-wrapper">
+                        <p class="top-title">Pregunta<span class="num-question">{{askCtrl.numQuestion}}/10</span></p>
+                    </div>
+                    <div class="progress-bar-wrapper">
+                        <progress max="100" value="{{askCtrl.barValue}}" class="progress-bar"></progress>
+                    </div>
+                    <div class="timer-wrapper">
+                        <span><i class="fas fa-stopwatch"></i></span>
+                        <p class="timer">10:02</p>
+                    </div>
+                </div>
+                <div class="exam-questions-wrapper">
+                    
+                    <!-- <div class="response-wrapper">
+                        <div class="question-wrapper">
+                            <p class="question">{{askCtrl.becario.preguntas[askCtrl.num].pregunta}}</p>
+                        </div>
+                        <a id = "{{respuesta.idPreg}}" ng-click="askCtrl.selected($event)" class="response-a-wrapper" ng-repeat="respuesta in askCtrl.becario.preguntas[askCtrl.num].respuestas">
+                            <div id = "{{respuesta.idOpcion}}" class="select-response"><p id = "{{respuesta.id}}" class="option">{{respuesta.opcion}}</p></div>
+                            <div  class="response"><p class="text-response">{{respuesta.texto}}</p></div>
+                        </a>
+                    </div> -->
+                </div>
+                <div class="exam-buttons-wrapper">
+                        <a class="skip-button" ng-click="askCtrl.prevQuestion()">Pregunta anterior</a>
+                        <a href = "{{askCtrl.stepSiguiente}}" {{askCtrl.putDisabled}} class="next-button {{askCtrl.botonFinalizar}}" ng-click="askCtrl.nextQuestion()">{{askCtrl.textoBotonSiguiente}}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
